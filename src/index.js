@@ -6,6 +6,7 @@ import store from "./redux/store";
 import { Provider } from "react-redux";
 import 'antd/dist/antd.css';//引入antd样式
 import Todo from './todo/todoIndex'
+import Echarts from './echarts/echarts'
 
 // import * as serviceWorker from "./serviceWorker";
 
@@ -14,7 +15,9 @@ ReactDOM.render(
     {/* <React.StrictMode> */}
       {/* <App /> */}
       {/* 待办事件 */}
-    <Todo></Todo>
+    {/* <Todo></Todo> */}
+    {/* echarts */}
+    <Echarts></Echarts>
     {/* </React.StrictMode> */}
   </Provider>,
   
